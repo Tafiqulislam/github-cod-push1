@@ -1,0 +1,166 @@
+/*animaston 1*/
+.one{
+    background-color:white;
+    width: 500px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 50px;
+    animation-name: ani;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani{
+    from{
+        background-color: rgb(164, 143, 184);
+        width: 300px;
+        height: 400px;
+        box-shadow: 100px 50px 90px;
+        display: none;
+    }
+
+to{
+    width: 500px;
+    background-color: rgb(142, 80, 169);
+    border: 5px solid rgb(0, 0, 0);
+    border-style: groove;
+    border-radius: 50px 100px 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+    color: rgba(150, 177, 242, 0);
+    border-bottom-color: aquamarine;
+    border-top-color: rgb(34, 34, 143);
+    border-left-color: burlywood;
+    background-image: url(photo/kat.png);
+    background-size: cover;
+}
+}
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+/*animton 2*/
+
+.two{
+    background-image: url(Photo/rose.jpg);
+    width: 100px;
+    height: 100px;
+    animation-name: ani2;
+    animation-duration: 12s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani2{
+    from{
+        box-shadow: 100px 50px 90px;
+    }
+
+    to{
+        width: 500px;
+        height: 300px;
+        background-image: url(Photo/rose.jpg);
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-size: 400px;
+        margin: 0px auto;
+    }
+}
+
+
+
+
+
+
+.four{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.three{
+    background-color: rgba(171, 166, 160, 0.612);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+    position: absolute;
+    animation-name: ani4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani4{
+    0%{
+        left: 2;
+        top: 2;
+    }
+
+    20%{
+        left: 500px;
+        right: 0;
+        top: 0;
+    }
+
+    40%{
+        left: 500px;
+        top: 300px;
+        bottom: 0;
+    }
+
+    60%{
+        left: 0;
+        right: auto;
+        top: auto;
+        bottom: 0;
+    }
+
+}
+
+
+.five{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.sixe{
+    background-color: rgba(227, 226, 144, 0.612);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 200px;
+    position: absolute;
+    animation-name: ani4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani4{
+    0%{
+        left: 2;
+        top: 2;
+    }
+
+    20%{
+        left: 500px;
+        right: 50;
+        top: 80;
+    }
+
+    40%{
+        left: 500px;
+        top: 300px;
+        bottom: 0;
+    }
+
+    60%{
+        left: 0;
+        right: 600;
+        top: 200;
+        bottom: 0;
+    }
+}
